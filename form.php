@@ -11,7 +11,7 @@
     </div>
     <div>
       <label  for="courriel">Courriel :</label>
-        <input  type="text"  id="courriel"  name="courriel">
+        <input  type="email"  id="courriel"  name="courriel">
     </div>
     <div>
       <label  for="phone">Telephone :</label>
@@ -30,5 +30,8 @@
     </div>
     <label  for="message">Message :</label>
       <textarea  id="message"  name="message"></textarea>
+    </div>
+    <div  class="button">
+      <button  type="submit">Envoyer votre message</button>
     </div>
 </form>
